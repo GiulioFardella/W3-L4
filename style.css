@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background: linear-gradient(red, orange,yellow);
+    min-height: 100vh;
+    font-family: fantasy;
+    margin-top: 2em;
+    background-image: url(baloons.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    ;
+    
+}
+#container {
+    display: grid;
+grid-template-columns: repeat(15,50px);
+grid-template-rows: (5,50px);
+gap:5px;
+justify-content: center;}
+
+
+
+    .cell {
+    margin-top:3.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    font-weight: 650;
+}
+#buttonB {
+    margin-top: 3.6em;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.light { background-color: green;
+border: solid;}
+
+h1 { font-size: 60px;
+background: radial-gradient(pink,purple);
+padding: 20px 40px;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+text-align: center;
+border-radius: 20%;
+}
